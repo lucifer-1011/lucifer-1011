@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020b07"/><stop offset="1" stop-color="#071a10"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#00ff88" stroke-opacity=".13"/></pattern>
+  <clipPath id="clip"><rect width="1000" height="140" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1000" height="140" fill="url(#bg)"/><rect width="1000" height="140" fill="url(#grid)"/>
+<path d="M0 108H1000" stroke="#00ff88" stroke-opacity=".2"/>
+<circle cx="24" cy="24" r="4" fill="#00ff88"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="40" y="28" fill="#4bb780" font-family="monospace" font-size="11" letter-spacing="2">SYSTEM ONLINE // WELCOME</text>
+<g filter="url(#glow)" fill="#a0ffc7" font-family="monospace" font-size="27" font-weight="700">
+<text x="1000" y="78">Hi I am Piyush Pagare, welcome to my GitHub <tspan fill="#00ff88">_</tspan><animate attributeName="x" values="1000;-720" dur="12s" repeatCount="indefinite"/></text>
+</g>
+<path d="M0 132H1000" stroke="#00ff88" stroke-opacity=".4"/>
+</g></svg>
